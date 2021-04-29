@@ -1,27 +1,61 @@
 # KasunmaliL.github.io
 WEB-DEV BOOTCAMP
-# SHAPEAI WEB DEV BOOTCAMP
-Hi I made this project during the 7 Days Free Bootcamp, conducted by <b> SHAPEAI
-</b>.
-The instructor during the session was Mr. Shaurya Sinha (Data Analyst Intern at Jio). I got to
-learn a lot during these 7 days and it was an amazing experience learning with SHAPEAI.
-<br><br>Here's the link for you to watch the sessions as well<br>
-<a href="https://youtube.com/playlist?list=PL7zl8TDRnbun7K0fECtSMCI2hOCgLBy9a"> <img src="https://github.com/ShapeAI/PYTHON-AND-DATA-ANALYTICS/blob/main/WebD%20poster.png"> </a>
-<br>I got to have hands on experience on:
-<li>HTML
-<li>CSS
-<br>during these 7 days, and everything was explained from the very basics so that
-anyone with zero experience on programming can learn.
-I enjoyed these 7 days, you can as well. To register for next free 7 days bootcamp, visit:
-www.shapeai.tech
-or follow SHAPEAI on:
-<li><a href=
-"https://in.linkedin.com/company/shapeai">LinkedIn</a>
-<li><a href=
-"https://www.instagram.com/shape.ai/?hl=en">Instagram</a>
-<li><a
-href=
-"https://www.youtube.com/channel/UCTUvDLTW9meuDXWcbmISPdA">YouTu
-be</a>
-<li><a href=
-"https://github.com/shapeai">GitHub</a>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Manga_eyes</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body> <!-- 1.nav bar  2.content section -->
+    <section id= "main" >
+      <nav>
+        <a href= "https://zinmanga.com/" class="logo" >
+          <img src="manga.jpg" alt="The logo of the Project Manga_eyes"/ >
+        </a>
+        <span class="menu-space"> </span>
+        <ul class="menu">
+          <li><a href= "https://mangatx.com/"> Home </a></li>
+          <li><a href= "https://mangatx.com/manga/"> Manga List </a></li>
+          <li><a href= "https://mangatx.com/manga-genre/manhwa/"> Manhwa </a></li>
+          <li><a href= "https://mangatx.com/manga-genre/manhua/"> Manhua </a></li>    
+          <li><a href= "https://mangatx.com/manga-genre/novel/"> Novel List</a></li>  
+        </ul>
+        <a href= "#"  class="hey"> 
+          <strong>Say Hi!</strong> 
+        </a>
+      </nav>
+    </section>
+    <div class="content">
+      <div class="image">
+        <img src="manga_the_gostly_doctor.jpg" alt="The gostly doctor"/>
+      </div>
+      <div class="main-text">
+        <h1> The Gostly Doctor </h1>
+        <p class="about-chapter">
+          <div class="about">
+            <ul class="first">
+              <li>Alternative</li>
+              <li>Author(s)</li>
+              <li>Artist(s)</li>
+              <li>Genre(s)</li>
+              <br>
+              <li>Type</li>
+            </ul>
+            <ul class="second">
+              <li>Gui Yi Feng ,Jiu Mesmerizing ,Ghost Doctor, 鬼医凤九</li>
+              <li>Feng Jiong</li>
+              <li>Yuan Man Dongman</li>
+              <li>Action, Based on a Novel, Drama, Fantasy, isekai, Manhua, Martial Arts,Reincarnation, Romance</li>
+              <li> Manhua</li>
+            </ul>
+          </div>
+          <ul class="chapter-btn">
+            <li><a href="https://mangatx.com/manga/the-ghostly-doctor/chapter-1/" class="btn1">Read First</a></li> 
+            <li><a href="https://mangatx.com/manga/the-ghostly-doctor/chapter-335/" class="btn2">Read Last</a></li>
+          </ul>             
+        </p>
+      </div>  
+    </div>
+  </body>
+</html>
